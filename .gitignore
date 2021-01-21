@@ -1,0 +1,10 @@
+# macs
+DS_Store
+
+# python
+src/__pycache__
+src/*pyc
+
+#jupyter
+src/.ipynb_checkpoints
+
