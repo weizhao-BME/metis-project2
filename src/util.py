@@ -372,12 +372,13 @@ def diagnose_plot(y_pred, y_test):
     plt.ylabel("Predicted price (x1000)")
     plt.xlim([0, 50])
     plt.ylim([0, 50])
-    plt.text(7, 40, '12k', horizontalalignment='center',
+    plt.text(6, 40, '$12k', horizontalalignment='center',
              verticalalignment='center')
-    plt.text(25, 40, '30k', horizontalalignment='center',
+    plt.text(24, 40, '$30k', horizontalalignment='center',
              verticalalignment='center')
     plt.text(39, 45, 'y=x', horizontalalignment='center',
              verticalalignment='center', color='r')
+    plt.title("Predicted vs Actual")
     
     
     plt.subplot(1,3,2)
