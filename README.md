@@ -2,9 +2,13 @@
 
 ---
 
-## Web Scraping and Linear Regression: Recommendations for buying Used Vehicle Based on regression analysis 
+## Recommendations on buying Used Vehicle Based on regression analysis
 
-Project timeline: two weeks; final presentation is posted [coming soon]()
+##### Web Scraping and Linear Regression Analysis
+
+Project timeline: Two weeks
+
+Final presentation is posted [coming soon]()
 
 ---
 
@@ -16,7 +20,7 @@ Vehicles are important tools that allow flexibly in our lives. We can go shoppin
 - What year, make and model?
 - If I have limited budget and would like  to buy a used car, what features should I focus on?
 
-Therefore, in this project I will address these questions via a machine learning approach. First, the vehicle data and listed price will be scraped from TrueCar.com. Next, a feature analysis will be performed to determined what features of a vehicle will be used as input variables in the analysis. Finally, a linear regression model will be trained using these features with respect to the listed price, which would demonstrate the relationship between these features and the listed price. This provides a clear understanding of how to choose a used car.  
+Therefore, in this project I will address these questions via a machine learning approach. First, the vehicle data and listed price will be scraped from TrueCar.com. Next, a feature analysis will be performed to determined what features of a vehicle will be used as input variables in the analysis. Finally, a linear regression model will be trained using these features with respect to the listed price, which would demonstrate the relationship between these features and the listed price. This provides a clear recommendations on how to choose a used car.  
 
 ---
 
@@ -76,7 +80,7 @@ The subplot below on the left shows the comparison between the predicted and act
 
 
 
-The figure 
+The figure below illustrates the import vehicle features that potentially affect vehicle price. Front-wheel drive layout most likely lowers car price. Other features including high mileage, high city MPG, and the use of gas also reduces price, but not as much as front-wheel drive layout. However, a very recent car equipped with a large-sized turbocharged engine and rear-wheel drive layout could have a high price. The hybrid engine also increases vehicle price. 
 
 
 
@@ -88,7 +92,14 @@ The figure
 
 ### Conclusions
 
+In this analysis, a exploratory investigation and linear regression were conducted in order to provide commendations on buying a used car. First, Customers may focus on the top 10 most popular makes, i.e. Toyota, Honda, and Ford. Be prepared for the price range of ~$12 -~$30k. Finally, the following features could be focused on to choose a cheap used car:
 
+- Front-wheel drive
+- Certain amount of mileage
+- Small-sized engine
+- High city MPG
+- Gas engine, not hybrid
+- Not too recent
 
 
 
