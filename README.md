@@ -34,7 +34,7 @@ The heatmap below demonstrate pair-wise Pearson correlation coefficients between
 
 
 
-<img src="E:\vbox_files\vbox_shared_folder\ds_self_learning\data_science\Metis\metisgh\metis-project2\figures\corrcoef.svg" alt="Figure 1" style="zoom:70%;" />
+<img src="https://github.com/weizhao-BME/metis-project2/blob/main/figures/corrcoef.svg" alt="Figure 1" style="zoom:70%;" />
 
 Three interaction features were added in order to improve the performance of linear regression model. They include 1) the interaction between drive type and city MPG as rear-wheel drive layout typically generates more power using the same amount of gas as front-wheel drive does,; 2) the interaction between transmission type and city MPG as manual transmission along with a high MPG could lead to a low price; 3) the interaction between fuel type and city MPG as a hybrid engine with a high city MPG typically induces high price. 
 
@@ -42,7 +42,7 @@ The figure below shows the workflow of linear regression modeling. First, the en
 
 
 
-<img src="E:\vbox_files\vbox_shared_folder\ds_self_learning\data_science\Metis\metisgh\metis-project2\figures\lin_reg_workflow.png" alt="Figure 2" style="zoom: 50%;" />
+<img src="https://github.com/weizhao-BME/metis-project2/blob/main/figures/lin_reg_workflow.png" alt="Figure 2" style="zoom: 50%;" />
 
 
 
