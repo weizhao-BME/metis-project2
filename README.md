@@ -8,7 +8,7 @@
 
 Project timeline: Two weeks
 
-Final presentation is posted [coming soon]()
+Final presentation is posted [here](https://github.com/weizhao-BME/metis-project2/blob/main/presentation/presentation_project2.pdf)
 
 ---
 
@@ -92,7 +92,7 @@ The figure below illustrates the import vehicle features that potentially affect
 
 ### Conclusions
 
-In this analysis, a exploratory investigation and linear regression were conducted in order to provide commendations on buying a used car. First, Customers may focus on the top 10 most popular makes, i.e. Toyota, Honda, and Ford. Be prepared for the price range of ~$12 -~$30k. Finally, the following features could be focused on to choose a cheap used car:
+In this analysis, a exploratory investigation and linear regression were conducted in order to provide commendations on buying a used car. First, Customers may focus on the top 10 most popular makes, i.e. Toyota, Honda, and Ford. Be prepared for the price range of ~$12k - ~$30k. Finally, the following features could be focused on to choose a cheap used car:
 
 - Front-wheel drive
 - Certain amount of mileage
