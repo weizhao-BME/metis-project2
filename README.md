@@ -2,7 +2,7 @@
 
 ---
 
-## Web Scraping and Linear Regression: Recommendations for Buying a Used Vehicle Based on TrueCar.com Data 
+## Web Scraping and Linear Regression: Recommendations for buying Used Vehicle Based on regression analysis 
 
 Project timeline: two weeks; final presentation is posted [coming soon]()
 
@@ -26,7 +26,11 @@ Therefore, in this project I will address these questions via a machine learning
 
 A total of 8691 listed used cars within 25 mile from Boston MA were scraped from TrueCar.com using beautiful soup and Python. It contains make, year, mileage, engine size, city/highway MPG, fuel  type, drive type, transmission type, and engine size. A data cleaning was performed to eliminate the cars with incomplete information such as mileage, price, engine size, and city/highway MPG. In addition, the price range was limited to $8k - 40k to eliminate overly old and luxury cars. The clean data includes 6557 cars. 
 
-#### Featuring Engineering
+#### Exploratory analysis
+
+ The top 10 most popular vehicle makes were identified from all the scraped data to understand their market popularity. From the clean data, the range of listed vehicle price was investigated to assist for planning a budget.
+
+#### Featuring engineering
 
 Features used as the input of the linear regression analysis contain continuous and categorical variables. The former includes year, mileage, engine size, and city MPG. The latter includes fuel type (gas, diesel, and hybrid), drive type (AWD, FWD, and RWD), transmission type (manual and automatic), and engine type (regular or turbocharged). 
 
@@ -48,21 +52,19 @@ The figure below shows the workflow of linear regression modeling. First, the en
 
 ---
 
-### Results
+### Results and Discussion
+
+For all the scraped vehicles, top 10 most popular makes were listed (The figure below). Among them, the top 3 most popular vehicle makes were Toyota, Honda, and Ford, suggesting they have a hot market near the great Boston area. 
 
 
 
+<img src="https://github.com/weizhao-BME/metis-project2/blob/main/figures/top10_makes_color_coded.svg" alt="Figure 3" style="zoom:80%;" />
 
-
-<img src="E:\vbox_files\vbox_shared_folder\ds_self_learning\data_science\Metis\metisgh\metis-project2\figures\top10_makes_color_coded.svg" alt="Figure 3" style="zoom:80%;" />
-
-
+The histogram below demonstrates that most of the cars of interest are priced within ~$12k - ~$30k. Therefore, it is important to plan a budge for buying a used car. This price range may not be affordable for some people to pay off at purchase. They may seek for a loan provided by dealerships. They usually offer a lower rate for used car. 
 
 
 
-<img src="E:\vbox_files\vbox_shared_folder\ds_self_learning\data_science\Metis\metisgh\metis-project2\figures\hist_listed_price.svg" alt="Figure 4" style="zoom:80%;" />
-
-
+<img src="https://github.com/weizhao-BME/metis-project2/blob/main/figures/hist_listed_price_edited.png" alt="Figure 4" style="zoom:80%;" />
 
 
 
@@ -70,27 +72,15 @@ The subplot below on the left shows the comparison between the predicted and act
 
 
 
-![Figure 5](E:\vbox_files\vbox_shared_folder\ds_self_learning\data_science\Metis\metisgh\metis-project2\figures\results_inspection.svg)
+![Figure 5](https://github.com/weizhao-BME/metis-project2/blob/main/figures/results_inspection.svg)
 
 
 
+The figure 
 
 
 
-
-
-
-
-
-![Figure 4](E:\vbox_files\vbox_shared_folder\ds_self_learning\data_science\Metis\metisgh\metis-project2\figures\lm_coef.svg)
-
-
-
----
-
-### Discussion 
-
-
+![Figure 6](https://github.com/weizhao-BME/metis-project2/blob/main/figures/lm_coef.svg)
 
 
 
