@@ -46,6 +46,8 @@ The heatmap below demonstrates pair-wise Pearson correlation coefficients betwee
 
 Three interaction features were added in order to improve the performance of the linear regression model. They included 1) the interaction between drive type and city MPG as rear-wheel drive layout typically generates more power using the same amount of gas as front-wheel drive does; 2) the interaction between transmission type and city MPG as manual transmission along with a high MPG could lead to a low price; 3) the interaction between fuel type and city MPG as a hybrid engine with a high city MPG typically induces high price. 
 
+#### **Linear regression modeling**
+
 The figure below shows the workflow of linear regression modeling. First, the entire data was split into training and testing datasets. (80% vs 20%). Second, with the feature engineering performed above, the training dataset was used to perform linear regression with a ridge regularization for a 5-fold cross validation. Third, the best penalty strength (alpha=3.6) resulting in the minimum mean squared error was identified from a pre-defined range -0.5 - 5 (with an increment of 0.8). Next, a final linear regression model using ridge regression with the best performing penalty strength was trained based on the complete training dataset. Finally, the performance of the fitted regression model was verified using the independent testing data. 
 
 
